@@ -21,7 +21,7 @@ export default function Home() {
       const data = await response.json();
       setResult(data);
     } catch (error) {
-      setResult({ status: 'error', message: 'Failed to connect to API' });
+      setResult({ message: 'Failed to connect to API' });
     } finally {
       setLoading(false);
     }
