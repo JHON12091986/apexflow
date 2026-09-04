@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 
@@ -37,7 +37,7 @@ setResult({
   }
 });
 
-      const data = await response.json();
+      
       setResult(data);
     } catch (error) {
       setResult({
@@ -53,7 +53,7 @@ setResult({
     <main className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white">
       <div className="max-w-5xl mx-auto px-6 py-12">
         <div className="text-center mb-10">
-          <h1 className="text-5xl font-bold mb-4">🚀 ApexFlow</h1>
+          <h1 className="text-5xl font-bold mb-4">ðŸš€ ApexFlow</h1>
 
           <p className="text-xl text-gray-300">
             Autonomous AI Agent for B2B Workflows
@@ -68,21 +68,21 @@ setResult({
         <div className="grid md:grid-cols-3 gap-4 my-10">
 
   <div className="bg-slate-800 p-5 rounded-xl border border-slate-700">
-    <h3 className="font-semibold text-lg">📝 Describe</h3>
+    <h3 className="font-semibold text-lg">ðŸ“ Describe</h3>
     <p className="text-sm text-gray-400 mt-2">
       Tell ApexFlow what business workflow you want to automate.
     </p>
   </div>
 
   <div className="bg-slate-800 p-5 rounded-xl border border-slate-700">
-    <h3 className="font-semibold text-lg">🤖 AI Executes</h3>
+    <h3 className="font-semibold text-lg">ðŸ¤– AI Executes</h3>
     <p className="text-sm text-gray-400 mt-2">
       ApexFlow analyzes your request and performs the workflow automatically.
     </p>
   </div>
 
   <div className="bg-slate-800 p-5 rounded-xl border border-slate-700">
-    <h3 className="font-semibold text-lg">📊 View Results</h3>
+    <h3 className="font-semibold text-lg">ðŸ“Š View Results</h3>
     <p className="text-sm text-gray-400 mt-2">
       Receive summaries, metrics and recommendations instantly.
     </p>
@@ -138,3 +138,4 @@ setResult({
     </main>
   );
 }
+
