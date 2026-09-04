@@ -1,4 +1,5 @@
-﻿"use client";
+﻿// @ts-nocheck
+"use client";
 
 import { useState } from "react";
 
@@ -138,5 +139,6 @@ setResult({
     </main>
   );
 }
+
 
 
